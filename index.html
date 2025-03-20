@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Mishra - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AM</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Particles -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="glitch" data-text="Abhishek Mishra">Abhishek Mishra</h1>
+                <h2 class="title">BE CSE AIML Student</h2>
+                <div class="typing-container">
+                    <p class="typing-text"></p>
+                </div>
+                <!-- <div class="brief-info">
+                    <p class="title">BE CSE AIML Student</p>
+                     <p class="location"><i class="fas fa-map-marker-alt"></i> Chandigarh University, Gharuan, Mohali</p>
+                </div> -->
+                <div class="hero-description">
+                    <h2>Transforming Ideas into AI Solutions</h2>
+                    <p>As a dedicated AI/ML enthusiast and full-stack developer, I specialize in creating intelligent systems that solve complex real-world problems. With expertise in Python, Java, and modern AI frameworks, I'm passionate about developing innovative solutions in healthcare, fintech, and sustainable technology. Currently pursuing my BE in CSE with AIML specialization, I'm actively seeking opportunities to contribute to cutting-edge projects and research initiatives.</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn primary">Download Resume</a>
+                    <a href="path/to/your/resume.pdf" class="btn primary">Contact</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="quick-info-grid">
+                    <div class="quick-info-card">
+                        <div class="card-front">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="card-back">
+                            <div class="info-content">
+                                <div class="info-item">
+                                    <h4>BE CSE (AIML)</h4>
+                                    <p class="institution">Chandigarh University</p>
+                                    <p class="year">2022-2026</p>
+                                    <!-- <p class="score">JEE Mains: 94.6</p> -->
+                                </div>
+                                <div class="info-item">
+                                    <h4>12th Grade</h4>
+                                    <p class="institution">CBSE Board</p>
+                                    <p class="year">2020-2022</p>
+                                    <p class="score">Percentage: 77%</p>
+                                </div>
+                                <div class="info-item">
+                                    <h4>10th Grade</h4>
+                                    <p class="institution">CBSE Board</p>
+                                    <p class="year">2018-2020</p>
+                                    <p class="score">Percentage: 79%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quick-info-card">
+                        <div class="card-front">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Experience</h3>
+                        </div>
+                        <div class="card-back">
+                            <div class="carousel-container">
+                                <div class="carousel-wrapper">
+                                    <div class="carousel-slide">
+                                        <h4>IIT (Indian School of Mines)</h4>
+                                        <p>Dhanbad</p>
+                                        <p>May 2024 - July 2024</p>
+                                        <p>Research Internship</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <!-- <h4>AI/ML Projects</h4>
+                                        <p>Freelance</p>
+                                        <p>2023 - Present</p>
+                                        <p>Machine Learning Solutions</p> -->
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <h4>Web Development</h4>
+                                        <p>Internship</p>
+                                        <p>2023</p>
+                                        <p>Full Stack Development</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quick-info-card">
+                        <div class="card-front">
+                            <i class="fas fa-code"></i>
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="card-back">
+                            <div class="info-content">
+                                <div class="tab-buttons">
+                                    <button class="tab-btn active" data-tab="programming">Programming</button>
+                                    <button class="tab-btn" data-tab="aiml">AI/ML</button>
+                                    <button class="tab-btn" data-tab="web">Web Dev</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="programming">
+                                        <div class="skills-preview">
+                                            <span>Python</span>
+                                            <span>Java</span>
+                                            <span>JavaScript</span>
+                                            <span>HTML/CSS</span>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="aiml">
+                                        <div class="skills-preview">
+                                            <span>TensorFlow</span>
+                                            <span>PyTorch</span>
+                                            <span>Scikit-learn</span>
+                                            <span>OpenCV</span>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="web">
+                                        <div class="skills-preview">
+                                            <span>React</span>
+                                            <span>Node.js</span>
+                                            <span>Django</span>
+                                            <span>Flask</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Project Categories -->
+     <section class="projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+     <div class="project-categories">
+        <div class="category-grid">
+            <div class="category-card" data-category="ai-ml">
+                <div class="category-content">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI/ML Projects</h3>
+                    <p>Artificial Intelligence & Machine Learning</p>
+                    <a href="projects/ai-ml.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="category-card" data-category="iot">
+                <div class="category-content">
+                    <i class="fas fa-microchip"></i>
+                    <h3>IoT Projects</h3>
+                    <p>Internet of Things & Embedded Systems</p>
+                    <a href="projects/iot.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="category-card" data-category="fintech">
+                <div class="category-content">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>FinTech Projects</h3>
+                    <p>Financial Technology Solutions</p>
+                    <a href="projects/fintech.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="category-card" data-category="web">
+                <div class="category-content">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Projects</h3>
+                    <p>Web Development & Applications</p>
+                    <a href="projects/web.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="category-card" data-category="drone">
+                <div class="category-content">
+                    <i class="fas fa-drone"></i>
+                    <i class="fa-solid fa-starm fighter-twin-ion-engine-advanced"></i>
+                    <h3>Drone Tech</h3>
+                    <p>Drone Technology & Applications</p>
+                    <a href="projects/drone.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="category-card" data-category="ui-ux">
+                <div class="category-content">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Projects</h3>
+                    <p>User Interface & Experience Design</p>
+                    <a href="projects/ui-ux.html" class="btn primary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- About Section with Cards -->
+    
+
+            <!-- Journey Section -->
+            <div class="journey-section">
+                <div class="journey-content">
+                    <h2 class="section-title">My Journey</h2>
+                    <div class="journey-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Early Education</h3>
+                                <p>Completed my 10th grade with 79% marks from CBSE Board (2018-2020), demonstrating strong academic foundation and analytical skills. Followed by outstanding performance in 12th grade with 77% marks (2020-2022), specializing in PCM stream.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>University Admission</h3>
+                                <p>Secured admission in BE CSE with AIML specialization at Chandigarh University (2022-2026) with an impressive JEE Mains percentile of 94.6. This marked the beginning of my focused journey into the world of AI and Machine Learning.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Technical Skills Development</h3>
+                                <p>Mastered multiple programming languages including C, C++, Python, Java, and JavaScript. Developed expertise in AI/ML frameworks like TensorFlow, PyTorch, and Scikit-learn. Built strong foundation in web development using React, Node.js, Django, and Flask.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>AI/ML Projects & Research</h3>
+                                <p>Engaged in various AI/ML projects, focusing on practical applications in healthcare and fintech. Currently pursuing a research internship at IIT (Indian School of Mines) Dhanbad (May 2024 - July 2024), working on cutting-edge AI solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Professional Experience</h3>
+                                <p>Gained practical experience through freelance AI/ML projects (2023-Present) and a web development internship (2023). These experiences helped me understand real-world applications and industry requirements.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Future Vision</h3>
+                                <p>Committed to developing ethical AI solutions that address real-world challenges. Focusing on healthcare applications and sustainable technology solutions. Actively seeking opportunities to contribute to cutting-edge research and innovative projects in AI/ML.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+                
+
+    <!-- Contact Section -->
+    <section id="contact" class="get-in-touch-footer">
+        <div class="get-in-touch-container">
+            <div class="get-in-touch-header">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind? Let's work together to create something amazing.</p>
+            </div>
+            
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <div class="contact-method-content">
+
+                        
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:iamabhishekmishra00@outlook.com">iamabhishekmishra00@outlook.com</a>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-method-content">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+918360584554">+91 8360584554</a>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-method-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>House no 154 Malarna Road Ballabgarh Faridabad, Haryana (121004)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form-footer">
+                <div class="form-row">
+                    <div class="form-group-footer">
+                        <input type="text" class="form-control-footer" id="name" placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group-footer">
+                        <input type="email" class="form-control-footer" id="email" placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                
+                <div class="form-group-footer">
+                    <textarea class="form-control-footer" id="message" placeholder=" "></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                
+                <button type="submit" class="submit-btn-footer">Send Message</button>
+            </form>
+            
+            <div class="social-links">
+                <a href="https://github.com/iamabhishek-mishra" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abhishek-mishra-128055215" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abhishek Mishra. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
+</html> 
